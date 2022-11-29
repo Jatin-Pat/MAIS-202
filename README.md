@@ -1,2 +1,2 @@
 # MAIS-202
-Sentiment analysis for financial news
+Welcome to Sentiment Analysis for Financial News!
