@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>Financial  News Sentiment Analysis</title>
+
+</head>
+<body>
+    <div>
+        <header class="header">
+            Welcome to Financial News Sentiment Analysis! 👋
+        </header>
+
+        <p>
+            This app was developed in the context of MAIS 202: Accelerated Introduction to Machine Learning Bootcamp, 
+            offered by McGill's AI society and serves as the final project to be presented at the McGill AI project fair. 
+            The project implements a Naive Bayes classifier for classifying financial news sentiment into three categories: 
+            negative, neutral, and positive.
+        </p>
+
+        <header class="sub_header">
+            Application
+        </header>
+
+        <ol>
+           <li>
+            Select an application method from the dropdown on the left: text or URL. A text field will appear if the ' text ' option is selected. 
+            If the ' URL ' option is selected, a URL field will appear, and the backend will gather the article's content directly.
+           </li> 
+           <li>
+            Click the ' analyze ' button to run the Naive Bayes classifier and output the result. 
+           </li>
+        </ol>
+        <header class="sub_header">
+            Want to learn more?
+        </header>
+        <ul>
+            <li>
+                View the demo, explanation, and source code at <a href="https://github.com/Jatin-Pat/MAIS-202" target="_blank">Documentation</a>
+            </li>
+            <li>
+                Improvements and suggestions are welcomed! 👉 Github fork + pull request
+            </li>
+        </ul>
+    </div>
+    <div>
+        <a href=text><button>Continue!</button></a>
+    </div>
+</body>
+</html> 
