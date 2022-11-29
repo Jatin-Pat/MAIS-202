@@ -20,14 +20,18 @@ def dataset_balancing(df):
   Performs undersampling on dataset and returns the balanced dataset
   """
   balanced_dataset = []
+  neutral_classification_count = 0
+  positive_classification_count = 0
 
   for i, classification in enumerate(data['classification']):
-    if classification == 'negative':
-      for j in range(round(df['classification'].value_counts().max()/df['classification'].value_counts().min())):
+    if classification == 'neutral':
+      neutral_classification_count += 1
+      if neutral_classification_count < df['classification'].value_counts().min():
         balanced_dataset.append(data.iloc[i])
 
     elif classification == 'positive':
-      for j in range(round(df['classification'].value_counts().max()/df['classification'].value_counts()[-2])):
+      positive_classification_count += 1
+      if positive_classification_count < df['classification'].value_counts().min():
         balanced_dataset.append(data.iloc[i])
     
     else:
@@ -88,7 +92,7 @@ def prediction(article):
   if article == "" or len(nlp(article).ents) == 0:
     return "No named entity found.", "[1]"
 
-  pred = classifier.predict(vectorizer.transform([article]))
+  pred = classifier.predict(vectorizer.transform([article.replace("[',-@/'`$#%&*()+,]", "")]))
   if pred == [0]:
     return_message = "The article has a negative outlook towards " 
   elif pred == [1]:
