@@ -7,9 +7,10 @@ Training data from [Hugging Face](https://huggingface.co/datasets/financial_phra
 This project sets out to predict the sentiment in financial news reports to gauge analysts' perceptions about a publicly traded company. I implemented the Naive Bayes classifier model using Scikit-Learn, and named-entity recognition (NER) using the Spacy library. The web app was built using Flask. 
 
 ## Demo
-![Landing Page](https://user-images.githubusercontent.com/86209713/204893631-b914f1a7-73fc-4821-a746-d5ac13114bcc.png)
-![Classification text](https://user-images.githubusercontent.com/86209713/204893634-54a269dd-f514-4793-819e-315d1bf8bbd8.png)
-![Classification result](https://user-images.githubusercontent.com/86209713/204893636-5230778b-663a-41ee-af5a-dc52398c43e0.png)
+<img width="1509" alt="Landing Page" src="https://user-images.githubusercontent.com/86209713/204894746-a6eed761-c290-4c99-86a5-fd38a726b172.png">
+<img width="1509" alt="Text Classification" src="https://user-images.githubusercontent.com/86209713/204894751-6bca5fac-ae46-4702-9d5d-f59e8ec20103.png">
+<img width="1509" alt="Classification Result" src="https://user-images.githubusercontent.com/86209713/204894754-cd795c2f-d801-4cfa-a78e-a6940e14919b.png">
+
 
 ## Running the app
 In order to run the web app and test the classifier, install the packages in requirements.txt and download files from this repo. Then, change into app.py and run the following in the terminal
