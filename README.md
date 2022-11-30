@@ -13,16 +13,16 @@ In order to run the web app and test the classifier, install the packages in req
 ```
 Lastly, open a browser and navigate to your [localhost](http://localhost:5000/)
 
-##Repository organization
+## Repository organization
 1. Deliverable/
- * Progress logs submitted to the Bootcamp technical project managers
-2. static/
+  * Progress logs submitted to the Bootcamp technical project managers
+3. static/
  * CSS files for web app
-3. templates/
+4. templates/
  * HTML templates for web app
-4. model.py
+5. model.py
  * Python script containing final model
-5. app.py
+6. app.py
  * Main script to instantiate server (on localhost)
-6. data.csv
+7. data.csv
  * Dataset used for model training
