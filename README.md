@@ -11,5 +11,5 @@ This project sets out to predict the sentiment in financial news reports to gaug
 ---
 In order to run the web app and test the classifier, install the packages in requirements.txt and download files from this repo. Then, change into app.py and run the following in the terminal
 
-  <code>python app.py<code>
+  'code'python app.py
 Lastly, open a vrowser and navigate to your [localhost](http://localhost:5000/)
