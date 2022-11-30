@@ -1,7 +1,7 @@
 # Financial News Sentiment Analysis
 Final project for McGill AI Society Intro to ML Bootcamp (2022).
 
-Traning data from [Hugging Face](https://huggingface.co/datasets/financial_phrasebank)
+Training data from [Hugging Face](https://huggingface.co/datasets/financial_phrasebank)
 
 ## Project description
 This project sets out to predict the sentiment in financial news reports to gauge analysts' perceptions about a publicly traded company. I implemented the Naive Bayes classifier model using Scikit-Learn, and named-entity recognition (NER) using the Spacy library. The web app was built using Flask. 
@@ -15,9 +15,9 @@ Lastly, open a browser and navigate to your [localhost](http://localhost:5000/)
 
 ## Repository organization
 1. Deliverable/
-  * Progress logs submitted to the Bootcamp technical project managers
+    * Progress logs submitted to the Bootcamp technical project managers
 3. static/
- * CSS files for web app
+  * CSS files for web app
 4. templates/
  * HTML templates for web app
 5. model.py
