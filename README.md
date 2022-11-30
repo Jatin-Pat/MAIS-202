@@ -17,12 +17,12 @@ Lastly, open a browser and navigate to your [localhost](http://localhost:5000/)
 1. Deliverable/
     * Progress logs submitted to the Bootcamp technical project managers
 3. static/
-  * CSS files for web app
+    * CSS files for web app
 4. templates/
- * HTML templates for web app
+    * HTML templates for web app
 5. model.py
- * Python script containing final model
+    * Python script containing final model
 6. app.py
- * Main script to instantiate server (on localhost)
+    * Main script to instantiate server (on localhost)
 7. data.csv
- * Dataset used for model training
+    * Dataset used for model training
