@@ -5,6 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score, confusion_matrix
 import spacy
+import re
 
 # read in the data as pandas dataframe and initialize spacy language
 data = pd.read_csv('https://raw.githubusercontent.com/Jatin-Pat/MAIS-202/main/data.csv', names = ['classification', 'text'], encoding ='latin1')
